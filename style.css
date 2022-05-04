@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  width: 100vw;
+  height: 100vh;
+}
+section div {
+  width: 100%;
+  height: 14.28%;
+}
+section div:first-of-type {
+  background: red;
+}
+section div:nth-of-type(2) {
+  background: orange;
+}
+section div:nth-of-type(3) {
+  background: yellow;
+}
+section div:nth-of-type(4) {
+  background: green;
+}
+section div:nth-of-type(5) {
+  background: blue;
+}
+section div:nth-of-type(6) {
+  background: rebeccapurple;
+}
+section div:last-of-type {
+  background: violet;
+}
